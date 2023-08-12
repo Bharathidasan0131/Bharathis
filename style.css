@@ -1,0 +1,184 @@
+<style>
+
+            *{
+                font-family: sans-serif;
+            }
+            body{
+                background-color: #3c3c3c;
+            }
+            #sp1{
+                visibility: hidden;
+            }
+            .navbar-nav{
+                margin-left: 200px;
+                padding: 20px;
+            }
+            .nav-item{
+                font-style: italic;
+                font-size: 20px;
+                font-weight: 500;
+                padding: 10px;
+            }
+            .others-link{
+                margin-top: 10px;
+            }
+            #navbarDropdown{
+                font-size: 30px;
+                margin-top: -10px;
+            }
+
+            #ipl{
+                font-style: italic;
+                font-size: 25px;
+                font-weight: 400;
+                color: darkmagenta;
+            }
+            #pl{
+                font-style: italic;
+                font-size: 35px;
+                font-weight: 400;
+                color: black;
+            }
+            #tl{
+                text-transform: uppercase;
+                font-style: italic;
+                letter-spacing: 5px;
+                cursor: pointer;
+            }
+            .about-text{
+                color: azure;
+                font-size:20px ;
+                font-family: sans-serif;
+                letter-spacing: 1px;
+                word-spacing: 2px;
+                text-indent: 100px;
+                text-align:justify;
+                margin-left: 150px;
+            }
+            #abo{
+                letter-spacing: 5px;
+                cursor: pointer;
+                margin-top: 20px;
+            }
+            #team{
+                color: white;
+                font-style: italic;
+                letter-spacing: 1px;
+                word-spacing: 2px;
+                text-transform: uppercase;
+            }
+            #mi{
+                text-decoration-line: none;
+            }
+            #gt{
+                text-decoration-line: none;
+            }
+            #rcb{
+                text-decoration-line: none;
+            }
+            #csk{
+                text-decoration-line: none;
+            }
+            #lsg{
+                text-decoration-line: none;
+            }
+            #rr{
+                text-decoration-line: none;
+            }
+            #pbks{
+                text-decoration-line: none;
+            }
+            #kkr{
+                text-decoration-line: none;
+            }
+            #dc{
+                text-decoration-line: none;
+            }
+            #srh{
+                text-decoration-line: none;
+            }
+            .about-img{
+                margin-top: 150px;
+            }
+            .about-img1{
+                margin-top:220px;
+            }
+            #image1{
+                border-radius: 20px;
+                opacity: 0.4;
+            }
+
+            .contacting{
+                display: inline-flex;
+                font-size: 60px;
+                width: 100% !important;
+            }
+            .contacting .fa-phone{
+                color: blue;
+            }
+            .contacting .fa-whatsapp{
+                color: green;
+            }
+            .contacting .fa-instagram{
+                color: #d9309e ;
+            }
+            .contacting .fa-facebook{
+                color: blue;
+            }
+            .contacting .fa-youtube{
+                color: red;
+            }
+            .contacting .fa-twitter{
+                color: rgb(30,185,247);
+            }
+            .card{
+                margin-top: 30px;
+            }
+            #ts{
+                margin-bottom: 20px;
+            }
+            #cred{
+                margin-top: 10px;
+            }
+            #dream11{
+                margin-top: 10px;
+            }
+            #upstox{
+                margin-top: 10px;
+            }
+            #rupay{
+                margin-top: 10px;
+            }
+            #visitsaudi{
+                margin-top: 10px;
+            }
+            #herballife{
+                margin-top: 10px;
+            }
+            #aramco{
+                margin-top: 10px;
+            }
+            #paytm{
+                margin-top: 10px;
+            }
+            #ceat{
+                margin-top: 10px;
+            }
+            #reserve{
+                font-style: italic;
+                font-size: 40px;
+                font-weight: 500px;
+                color: chartreuse;
+            }
+            #final{
+                text-decoration-line: none;
+                text-align: justify;
+                font-style: italic;
+                font-size: 20px;
+            }
+            .card-title{
+                margin-left: 15px;
+            }
+
+
+        </style>

@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+     <!--navbar start-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand text-warning" href="#"><img id="logo" height="90" width="90" src="Images\ipl-logo.png" alt="logo"></a>
+          <a id="ipl" class="navbar-brand " href="#"><span id="pl" class="">INDIAN </span>PREMIER LEAGUE</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              
+              <li class="nav-item">
+                <a class="nav-link text-warning" href="#home">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-warning" href="#about">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-warning" href="#contac">CONTACT US</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-warning" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  IPL
+                </a>
+                <ul class="dropdown-menu bg-warning" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item text-success" href="#tl">IPL TEAMS NAME</a></li>
+                  <li><a class="dropdown-item text-success" href="index1.html">IPL PLAYERS</a></li>
+                  <li><a class="dropdown-item text-success" href="index3.html">IPL AUCTIONS</a></li>
+                  <li><a class="dropdown-item text-success" href="index4.html">IPL TITLE WINNERS</a></li>
+                  <li><a class="dropdown-item text-success" href="index5.html">IPL VENUES</a></li>
+                  <li><a class="dropdown-item text-success" href="index6.html">IPL POINTS TABLE</a></li>
+                  <li><a class="dropdown-item text-success" href="index7.html">IPL TEAMS OWNERS</a></li>
+                  <li><a class="dropdown-item text-success" href="index8.html">CRICKET BATS</a></li>
+
+                  <!--<li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                </ul>
+              </li>
+
+              <!--login sign up start-->
+              <div class="others-link">
+                
+                <button id="si" type="button" class="btn btn-warning " data-bs-toggle="modal" data-bs-target="#cm">SIGN IN</button>
+                <button id="su" type="button" class="btn btn-warning " data-bs-toggle="modal" data-bs-target="#rock">SIGN UP</button>
+                <div class="modal fade" id="cm">
+                    <div class="modal-dialog" >
+                
+                
+                        <div class="modal-content">
+                
+                            <div class="modal-header">
+                                <h1 class="modal-title">SIGN IN</h1>
+                                <button type="button" class="btn-close " data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                
+                                <form>
+                                <label for="fname">E - MAIL :</label><br>
+                                <input type="text" id="fname" name="fname" placeholder="Enter Your Email"><br>
+                                <label for="lname" class="lname">PASSWORD :</label><br>
+                                <input type="password" id="lname" name="lname" class="llname" placeholder="Password"><br>
+                               <button type="button" class="buut btn bg-primary"  >SIGN IN</button> 
+                
+                                </form>
+                            </div>
+                
+                            <div class="modal-footer">
+                             <button type="button" class=" cc btn bg-danger" data-bs-dismiss="modal">close</button>
+                            </div>
+                
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="modal fade" id="rock">
+                  <div class="modal-dialog" >
+                
+                
+                      <div class="modal-content">
+                
+                          <div class="modal-header">
+                              <h1 class="modal-title">SIGN UP</h1>
+                              <button type="button" class="btn-close " data-bs-dismiss="modal"></button>
+                          </div>
+                          <div class="modal-body">
+                              
+                              <form>
+                              <label for="fname">NAME :</label><br>
+                              <input type="text" id="name" name="name" placeholder="Enter Your Name"><br>
+                              <label for="fname">E-MAIL :</label><br>
+                              <input type="text" id="fname" name="fname" placeholder="Enter Your Email"><br>
+                              <label for="lname" class="lname">PASSWORD :</label><br>
+                              <input type="password" id="lname" name="lname" class="llname" placeholder="Password"><br>
+                              <label for="lname" class="lname">CONFIRM PASSWORD:</label><br>
+                              <input type="password" id="lname" name="lname" class="llname" placeholder="Password"><br>
+                              <label for="lname" class="lname">PHONE :</label><br>
+                              <input type="phone" id="lname" name="lname" class="llname" placeholder="Phone Number"><br>
+                             <button type="button" class="buut btn bg-primary"  >SIGN UP</button> 
+                
+                              </form>
+                          </div>
+                
+                          <div class="modal-footer">
+                           <button type="button" class=" cc btn bg-danger" data-bs-dismiss="modal">close</button>
+                          </div>
+                
+                      </div>
+                      
+                  </div>
+                </div>
+                <!--login signup end-->
+                    </div>
+
+                    
+              
+            </ul>
+            
+
+           <!-- <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success btn-warning" type="submit">Search</button>
+            </form> -->
+          </div>
+        </div>
+      </nav>
+
+      <!--nav bar end-->
+
+      <!--carosal start-->
+
+      <div id="home" class="carousel slide" id="home" data-bs-ride="carousel">
+        <div id="pic" class="carousel-inner">
+        <center>
+        <div class="carousel-item active">
+                      <a href="#" target="blank" >
+                       <img id="myimage" class="d-block" height="350" width="450" src="Images\milogo.png" alt="MI" ></img>
+                      </a>
+                        </div>
+         
+                     <div class="carousel-item ">
+                      <a href="#" target="blank" > 
+                       <img id="myimage" class="d-block" height="350" width="450" src="Images\gtlogo.png" alt="GT" ></img>
+                    </a> 
+                     </div>
+
+                     <div class="carousel-item ">
+                        <a href="#" target="blank" > 
+                         <img id="myimage" class="d-block" height="350" width="450" src="Images\csblogo.png" alt="RCB" ></img>
+                      </a> 
+                       </div>
+
+                       <div class="carousel-item ">
+                        <a href="#" target="blank" > 
+                         <img id="myimage" class="d-block" height="350" width="450" src="Images\csk3.png" alt="CSK" ></img>
+                      </a> 
+                       </div>
+
+                       <div class="carousel-item ">
+                        <a href="#" target="blank" > 
+                         <img id="myimage" class="d-block" height="350" width="450" src="Images\lsglogo.png" alt="LSG" ></img>
+                      </a> 
+                       </div>
+
+                       <div class="carousel-item ">
+                        <a href="#" target="blank" > 
+                         <img id="myimage" class="d-block" height="350" width="450" src="Images\rrlogos.png" alt="RR" ></img>
+                      </a> 
+                       </div>
+
+                       <div class="carousel-item ">
+                        <a href="#" target="blank" > 
+                         <img id="myimage" class="d-block" height="350" width="450" src="Images\pbkslogo.png" alt="PBKS" ></img>
+                      </a> 
+                       </div>
+
+                       <div class="carousel-item ">
+                        <a href="#" target="blank" > 
+                         <img id="myimage" class="d-block" height="350" width="450" src="Images\kkrlogos.png" alt="KKR" ></img>
+                      </a> 
+                       </div>
+
+                       <div class="carousel-item ">
+                        <a href="#" target="blank" > 
+                         <img id="myimage" class="d-block" height="350" width="450" src="Images\ddlogo.png" alt="DC" ></img>
+                      </a> 
+                       </div>
+
+                       <div class="carousel-item ">
+                        <a href="#" target="blank" > 
+                         <img id="myimage" class="d-block" height="350" width="450" src="Images\srhlogo.png" alt="SRH" ></img>
+                      </a> 
+                       </div>
+        
+                     <button  type="button" class="carousel-control-prev" data-bs-target="#cartoon" data-bs-slide="prev">
+                        <span id="sp1" class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button type="button" class="carousel-control-next" data-bs-target="#cartoon" data-bs-slide="next">    
+                        <span id="sp1" class="carousel-control-next-icon"></span>
+                    </button>
+                </center>
+           </div>
+         </div><br>
+         <!--carosal end-->
+
+         <!--teamslist start-->
+
+         <div class="container">
+          <center><h1 class="bg-primary text-warning" id="tl">Teams List</h1></center>
+          <div class="row">
+            <div class="col-lg-6 col-md-12 col-12">
+              <div class="about-img1">
+                <img id="image1" height="400" width="500" src="Images2/ipl teams.jpg" alt="iplteams">
+              </div>
+            </div>
+
+
+              <div class="col-lg-6 col-md-12 col-12 ps-lg-5 mt-md-5">
+           <ul id="team">
+            <h2 class="text-warning">
+              <li><a id="mi" class="text-white" href="#">Mumbai Indians</a></li><br>
+              <li><a id="gt" class="text-white" href="#">Gujarat Titans</a></li><br>
+              <li><a id="rcb" class="text-white" href="#">Royal CHALLENGERS BANGALORE</a></li><br>
+              <li><a id="csk" class="text-white" href="">CHENNAI super kings</a></li><br>
+              <li><a id="lsg" class="text-white" href="#">LUCKNOW super GIANTS</a></li><br>
+              <li><a id="rr" class="text-white" href="#">RAJASTHAN ROYALS</a></li><br>
+              <li><a id="pbks" class="text-white" href="#">PUNJAB kings</a></li><br>
+              <li><a id="kkr" class="text-white" href="#">KOLKATA KNIGHT RIDERS</a></li><br>
+              <li><a id="dc" class="text-white" href="#">DELHI CAPITALS</a></li><br>
+              <li><a id="srh" class="text-white" href="#">SUNRISERS HYDERABAD</a></li><br>
+              </h2>
+            </ul>
+              </div>
+             </div>
+         </div>
+
+         <!--teams list end-->
+
+         <!--about start-->
+
+         <section id="about" class="about-section-padding">
+          <center><h1 id="abo" class="container bg-primary text-warning">ABOUT</h1></center>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-md-12 col-12">
+                <div class="about-img">
+                  <img width="99%" src="Images2\ipl2023.png" alt="ipl2023">
+                </div>
+              </div>
+
+              <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+                <div class="about-text">
+                  <p>The Indian Premier League (IPL) (also known as the TATA IPL for sponsorship reasons) is a men's Twenty20 (T20) cricket league that is annually held in India and contested by ten city-based franchise teams. The BCCI founded the league in 2007. The competition is usually held in summer between March and May every year. It has an exclusive window in the ICC Future Tours Programme due to fewer international cricket tours happening during IPL seasons worldwide.
+                    The Indian Cricket League (ICL) was founded in 2007 with funding provided by Zee Entertainment Enterprises. The ICL was not recognised by the Board of Control for Cricket in India (BCCI) or the International Cricket Council (ICC), and the BCCI was not pleased with its committee members joining the ICL executive board.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+         </section>
+
+        <!-- about end -->
+
+        <!-- title sponser start-->
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-12">
+                    
+                    <center><h1 id="ts" class="bg-primary text-warning">TITLE SPONSOR</h1></center>
+                    <div class="text-center"><a onclick="outbound_click(this)" data-event_context="Sponsor" data-element_text="TATA IPL" href="https://www.tata.com/" target="_blank">
+                      <img id="tata" height="300" width="300" src="Images2/tata logo.png" alt="tata"></a>
+                    </div>
+          </div>
+        </div>
+    <!--title sponser end-->
+
+    <!--broadcaster start-->
+
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-12 col-12">
+              <center><h3 id="ob" class="bg-primary text-warning">OFFICIAL BROADCASTER</h3></center>
+                      <div class="text-center"><a href="https://www.hotstar.com/in" target="_blank">
+                      <img id="starsports" height="100" width="100" src="Images2/StarSports Logo.png" alt="star sports"></a>
+                  </div>
+             </div>
+
+            <div class="col-lg-6 col-md-12 col-12">
+              <center><h3 class="bg-primary text-warning">OFFICIAL DIGITAL STREAMING PARTNER</h3></center>
+              <div class="text-center"><a href="https://www.jiocinema.com/" target="_blank">
+                <img id="jiocinema" height="90" width="100" src="Images2/Jio Cinema logo.png" alt="jiocinema"></a></div>
+                </div>
+            </div>
+          </div>
+        </div>
+<!--broadcaster end-->
+
+        <!--official partner start-->
+        <div class="container">
+          <center><h3 class="bg-primary text-warning">OFFICIAL PARTNERS</h3></center>
+          <div class="row">
+            <div class="col-lg-2 col-md-12 col-12">
+              <div class="text-center"><a onclick="outbound_click(this)" data-event_context="official partner" data-element_text="Fantasy Cricket" href="https://www.dream11.com/fantasy-cricket" target="_blank">
+                <img id="dream11" height="50" width="150" src="Images2/dream11 logo.png" alt="dream11"></a>
+            </div>
+          </div>
+
+            <div class="col-lg-2 col-md-12 col-12">
+              <div class="text-center"><a onclick="outbound_click(this)" data-event_context="official partner" data-element_text="Cred" href="https://cred.club/" target="_blank">
+                <img id="cred" height="70" width="150" src="Images2/Cred logo.png" alt="Cred"></a>
+            </div>
+          </div>
+
+            <div class="col-lg-2 col-md-12 col-12">
+              <div class="text-center"><a onclick="outbound_click(this)" data-event_context="official partner" data-element_text="Upstox" href="https://upstox.com/" target="_blank">
+                <img id="upstox" height="50" width="150" src="Images2/Upstox logo.png" alt="Upstox"></a>
+            </div>
+            </div>
+
+            <div class="col-lg-2 col-md-12 col-12">
+              <div class="text-center"><a onclick="outbound_click(this)" data-event_context="official partner" data-element_text="Rupay" href="https://www.rupay.co.in/" target="_blank">
+                <img id="rupay" height="50" width="150" src="Images2/Rupay logo.png" alt="Rupay"></a>
+            </div>
+            </div>
+
+            <div class="col-lg-2 col-md-12 col-12">
+              <div class="text-center"><a onclick="outbound_click(this)" data-event_context="official partner" data-element_text="visitsaudi" href="https://www.visitsaudi.com/en" target="_blank">
+                <img id="visitsaudi" height="50" width="150" src="Images2/saudi logo.png" alt="visitsaudi"></a>
+            </div>
+          </div>
+
+            <div class="col-lg-2 col-md-12 col-12">
+              <div class="text-center"><a onclick="outbound_click(this)" data-event_context="official partner" data-element_text="herbalife" href="https://www.herbalife.co.in/" target="_blank">
+                  <img id="herballife" height="50" width="150" src="Images2/herballife logo.png" alt="herbalife"></a>
+            </div>
+            </div>
+
+            </div>
+        </div>
+        <!--official partner end-->
+
+        <!--official partner 1 start-->
+
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-12 col-12">
+              <center><h5 id="ofp" class="bg-primary text-warning">OFFICIAL ORANGE CAP AND PURPLE CAP PARTNER</h5></center>
+              <div class="text-center"><a onclick="outbound_click(this)" data-event_context="official orange cap and purple cap partner" data-element_text="Aramco" href="https://www.aramco.com" target="_blank">
+              <img id="aramco" height="50" width="150" src="Images2/aramco logo.png" alt="aramco"></a>
+            </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 col-12">
+              <center><h5 id="oup" class="bg-primary text-warning">OFFICIAL UMPIRE <br> PARTNER</h5></center>
+              <div class="text-center"><a onclick="outbound_click(this)" data-event_context="official umpire partner" data-element_text="Paytm" href="https://paytm.com/" target="_blank">
+              <img id="paytm" height="50" width="100" src="Images2/paytm logo.png" alt="paytm"></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 col-12 ">
+              <center><h5 id="ost" class="bg-primary text-warning">OFFICIAL STRATEGIC TIMEOUT PARTNER</h5></center>
+              <div class="text-center"><a href="https://www.ceat.com/" target="_blank">
+                <img id="ceat" height="50" width="100" src="Images2/ceat logo.png" alt="ceat"></a></div>
+                 </div>
+          </div>
+
+          </div>
+        </div>
+
+        <!--official partner 1 end-->
+
+
+
+
+<!--contact us-->
+
+        <section id="contac" class="about-section-padding">
+          <center><h1 id="abo" class="container bg-primary text-warning">CONTACT US</h1></center>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-12 ps-lg-5 mt-md-5">
+                <div class="contacting container" id="contact">
+                  <div class="col-sm-2"><a href="#"><i class="fa fa-phone"></i></a></div>
+                  <div class="col-sm-2"><a href="#"><i class="fa fa-whatsapp"></i></a></div>
+                  <div class="col-sm-2"><a href="#"><i class="fa fa-instagram"></i></a></div>
+                  <div class="col-sm-2"><a href="#"><i class="fa fa-facebook"></i></a></div>
+                  <div class="col-sm-2"><a href="#"><i class="fa fa-youtube"></i></a></div>
+                  <div class="col-sm-2"><a href="#"><i class="fa fa-twitter"></i></a></div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--contact us end-->
+
+        
+
+
+        <!--Final Start-->
+  
+        <div class="container-fluid">
+          <div class="card" >
+               <div class="card-body bg-warning">
+                   <div class="row">
+                   <div class="col-md-4 py-3 py-md-3">
+                 <h4 class="card-title">TERMS & CONDITIONS</h4>
+                 <ul class="text-danger">
+                 <li id="final"><a id="final" class="text-danger" onclick="click_menu(this)" data-event_context="footer" data-element_text="About Us" href="https://www.iplt20.com/about/about-us">About Us</a></li>
+                 <li id="final"><a id="final" class="text-danger" onclick="click_menu(this)" data-event_context="footer" data-element_text="Anti Doping Policy" href="https://www.iplt20.com/about/anti-doping-policy?id=261">Anti Doping Policy</a></li>
+                 <li id="final"><a id="final" class="text-danger" onclick="click_menu(this)" data-event_context="footer" data-element_text="TUE Application Form" href="https://www.iplt20.com/about/tue-application-form?id=265">TUE Application Form</a></li>
+                 <li id="final"><a id="final" class="text-danger" onclick="click_menu(this)" data-event_context="footer" data-element_text="News Access Regulations" href="https://www.iplt20.com/about/news-access-regulations?id=270">News Access Regulations</a></li>
+                 <li id="final"><a id="final" class="text-danger" onclick="click_menu(this)" data-event_context="footer" data-element_text="Image Use Terms" href="https://www.iplt20.com/about/image-use-terms?id=271">Image Use Terms</a></li>
+                 </ul>
+                   </div>
+             <div class="col-md-4 py-3 py-md-3">
+                 <h4 class="card-title">GUIDELINES</h4>
+                 <ul class="text-danger">
+                   <li id="final"><a id="final" class="text-danger" onclick="click_menu(this)" data-event_context="footer" data-element_text="Brand And Protection Guidelines" href="https://bcciplayerimages.s3.ap-south-1.amazonaws.com/bcci/documents/1680174721009_Brand&amp;ContentProtectionGuidelines.pdf">Brand And Protection Guidelines</a></li>
+                   <li id="final"><a id="final" class="text-danger" onclick="click_menu(this)" data-event_context="footer" data-element_text="Governing Council" href="https://www.iplt20.com/about/governing-council?id=275">Governing Council</a></li>
+                   <li id="final"><a id="final" class="text-danger" onclick="click_menu(this)" data-event_context="footer" data-element_text="Match Playing Conditions" href="https://www.iplt20.com/about/match-playing-conditions?id=272">Match Playing Conditions</a></li>
+                   <li id="final"><a id="final" class="text-danger" onclick="click_menu(this)" data-event_context="footer" data-element_text="PMOA Minimum Standard" href="https://www.iplt20.com/about/pmoa-minimum-standard?id=273">PMOA Minimum Standard</a></li>
+                   <li id="final"><a id="final" class="text-danger" onclick="click_menu(this)" data-event_context="footer" data-element_text="Suspect Action Policy" href="https://www.iplt20.com/about/suspect-action-policy?id=290">Suspect Action Policy</a></li>
+
+                 </ul>
+             </div>
+             <div class="col-md-4 py-3 py-md-3">
+                 <h4 class="card-title">CONTACT</h4>
+                 <ul class="text-danger">
+                   <li id="final"><a class="text-danger" id="final" onclick="click_menu(this)" data-event_context="footer" data-element_text="Contact Us" href="https://www.iplt20.com/about/contact-us">Contact Us</a></li>
+                   <li id="final"><a class="text-danger" id="final" onclick="click_menu(this)" data-event_context="footer" data-element_text="Sponsorship" href="https://www.iplt20.com/about/contact-us">Sponsorship</a></li>
+                   <li id="final"><a class="text-danger" id="final" onclick="click_menu(this)" data-event_context="footer" data-element_text="Privacy Policy" href="https://www.iplt20.com/privacy-policy">Privacy Policy</a></li>
+                 </ul>
+             </div>
+               </div>
+             </div>
+               </div>
+           </div>
+
+ </body>
+</html>
+              <div id="reserve" style="padding-bottom: 15px;">
+                <p id="reserve" class="text-center">Copyright © IPL 2023 All Rights Reserved.</p>
+            </div>
+        </div>
+        </div>
+
+                  
+
+
+        
+
+
+</body>
+</html>
